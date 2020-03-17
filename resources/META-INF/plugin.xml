@@ -1,0 +1,33 @@
+<idea-plugin>
+	<id>pl.suve.jet-fpc</id>
+	<name>Jet-FPC</name>
+	<version>0.1</version>
+	<vendor email="suve@suve.pl" url="https://github.com/suve/jet-fpc">suve</vendor>
+
+	<description><![CDATA[
+		Language plugin for <b>Free Pascal</b> support. Supports the <i>FPC</i> and <i>OBJFPC</i> dialects.
+	]]></description>
+
+	<change-notes><![CDATA[
+		<ul>
+			<li>
+				<b>0.1</b>
+				<ul>
+					<li>Initial version, nothing works yet, LOL</li>
+				</ul>
+			</li>
+		</ul>
+	]]></change-notes>
+
+	<idea-version since-build="173.0"/>
+	<depends>com.intellij.modules.platform</depends>
+	<depends>com.intellij.modules.lang</depends>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<!-- Add your extensions here -->
+	</extensions>
+
+	<actions>
+		<!-- Add your actions here -->
+	</actions>
+</idea-plugin>
