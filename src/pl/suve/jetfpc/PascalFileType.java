@@ -42,6 +42,6 @@ public class PascalFileType extends LanguageFileType {
 	@Nullable
 	@Override
 	public Icon getIcon() {
-		return null;
+		return LazarusIcons.FILE;
 	}
 }
