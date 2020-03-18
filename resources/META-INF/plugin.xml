@@ -24,7 +24,7 @@
 	<depends>com.intellij.modules.lang</depends>
 
 	<extensions defaultExtensionNs="com.intellij">
-		<!-- Add your extensions here -->
+		<fileTypeFactory implementation="pl.suve.jetfpc.PascalFileTypeFactory"/>
 	</extensions>
 
 	<actions>
